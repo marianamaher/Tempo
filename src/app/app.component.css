@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 :host {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
@@ -25,23 +27,35 @@
   }
 
   .toolbar {
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 60px;
-    display: flex;
+    display:flex;
     align-items: center;
     background-color: #F6EFEE;
-    color: white;
+    color: grey;
     font-weight: 600;
+    /* text-align: center;
+    justify-content: center; */
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
   }
 
   .toolbar img {
-    margin: 0 16px;
+    margin: 0 13px;
+    height: 26px;
   }
 
-  .toolbar #twitter-logo {
+  .main-page{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #c3dac3;
+  }
+ 
+  /* .toolbar #twitter-logo {
     height: 40px;
     margin: 0 8px;
   }
@@ -263,7 +277,7 @@
   }
 
   /* Responsive Styles */
-  @media screen and (max-width: 767px) {
+  /* @media screen and (max-width: 767px) {
     .card-container > *:not(.circle-link) ,
     .terminal {
       width: 100%;
@@ -289,4 +303,4 @@
       display: none;
       visibility: hidden;
     }
-  }
+  } */
