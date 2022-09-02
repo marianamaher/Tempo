@@ -8,10 +8,10 @@
     align-items: center;
     background-color: #F6EFEE;
     color: grey;
-    font-weight: 600;
+    /* font-weight: 600; */
     /* text-align: center;
     justify-content: center; */
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
   }
 

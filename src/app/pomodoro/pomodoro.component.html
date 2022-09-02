@@ -1,9 +1,14 @@
 <div class="card">
    <div class="flex">
-    <h1 class="title">start tempo</h1>
+    <h1 class="title">Start Tempo</h1>
+    <input type="text" id="taskname" name="fname" placeholder="Task name">
+    <br>
+    <br>
     <div class="counter">
-        <div>25:00</div>
+        <div> {{minutes}}:{{seconds}}</div>
     </div>
-    <button id="main-button">start</button>
+    <br>
+    <br>
+    <button id="main-button" (click)="start()">start</button>
    </div>
 </div>
