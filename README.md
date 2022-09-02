@@ -4,7 +4,7 @@ Timer application that replicates a pomodoro timer created with Angular.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
 
-[![Tempo](tempo.png)]
+![Tempo](tempo.png)
 
 ## Development server
 
